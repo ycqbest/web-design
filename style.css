@@ -1,0 +1,28 @@
+
+
+       h2{
+           color: red;
+           font-size: 25px;
+       }
+       p{
+        text-align: justify;
+       }
+       #p11:hover{
+        background-image: url("images/q.jpg");
+       }
+       #a21:hover{
+        background-image: url("images/l.jpg");
+       }
+       #b11:hover{
+        background-image: url("images/oo.jpg");
+    }
+    h3{
+      color:white;
+      font-family: "楷体";
+      font-size: 18px;
+
+    }
+
+   
+      
+

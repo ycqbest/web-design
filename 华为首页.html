@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>杨楚峤的数码产品网站</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body {
+		    font-family:"微软雅黑"; 
+			font-size:14px;
+			height: 1500px; 
+			
+
+		}
+		#container {
+			height: 2100px;
+			width: 1200px;
+			background-color: white;
+			margin: 0 auto;
+        }
+
+
+        #header { 
+        	height: 200px;
+        	width: 1200px;
+        	background-color: white;
+        	background-image: url("images/未命名-4.gif");
+
+		}
+		#dhead{
+			height:30px;
+			width: 1200px;
+			background-color: #595959;
+			position: relative;
+
+		}
+        #oo{
+    		float:right;
+    		position: absolute;
+    		top: 4px;
+    		right: 10px;
+
+
+    	}
+		#mishead{
+			margin-left: 900px;
+			color:red;
+
+		}
+		
+		#nav{
+			height: 60px;
+			width: 1200px;
+			background-color: #595959;
+			margin: 0 auto;
+
+	    }
+	    #s1{
+	    	height: 60px;
+	    	width: 1000px;
+	    	background-color: #595959;
+	    	margin: 0 auto;
+	    }
+		#nav li{
+            margin: 30px;
+            padding: 0px;
+            display: inline;
+            font-family: "楷体";
+            font-size: 25px;
+           text-align: center;
+           font-weight: bold;
+        }
+        a:hover{
+        	color: black;
+        	text-decoration: underline;
+
+        }
+
+        a{
+        	color: white;
+        	text-decoration: none;
+    	}
+
+    	
+    	#s2{
+    		height: 400px;
+    		width: 1200px;
+    		background-image: url("images/1.jpg");
+    	}
+    	#s2:hover{
+    		background-image: url("images/pp.jpg");
+    	}
+    	
+
+    	#s3{
+    		height: 800px;
+    		width: 1200px;
+    		background-color: white;
+    	}
+    	#s4{
+    		height:525px;
+    		width: 1200px;
+    		background-color: white;
+    		margin-top: 1020px;
+    	
+
+    	}
+    	#m1{
+    		height: 400px;
+    		width: 300px;
+    		float: left;
+    		margin:0 auto;
+    		margin-top: 50px;
+    		background-color: white;
+    	}
+    	#n1{
+    		height: 350px;
+    		width: 250px;
+    		float: left;
+    		margin-top: 25px;
+    		margin-left: 25px;
+    		background-color: red;
+    		border-radius: 10px 10px 10px 10px;
+    		background-color: #d0d0d0;
+    		font-family: "楷体";
+    		font-size: 20px;
+    		
+    	}
+    	#n1:hover{
+    		margin-left:25px;
+    		border-radius: 10px 10px 10px 10px;
+    		margin-top: 0;
+
+    	}
+
+    	#m2{
+    		height: 400px;
+    		width: 300px;
+    		float: left;
+    		margin-top: 50px;
+    		background-color: white;
+
+    	}
+    	#n2{
+    		height: 350px;
+    		width: 250px;
+    		float: left;
+    		margin-top: 25px;
+    		margin-left: 25px;
+    		background-color: red;
+    		border-radius: 10px 10px 10px 10px;
+    		background-color: #d0d0d0;
+    		font-family: "楷体";
+    		font-size: 20px;
+    	}
+    	#n2:hover{
+    		margin-left:25px;
+    		border-radius: 10px 10px 10px 10px;
+    		margin-top: 0;
+
+
+    	}
+
+    	#m3{
+    		height: 400px;
+    		width: 300px;
+    		float: left;
+    		margin-top:50px;
+    		background-color: white;
+    	}
+    	#n3{
+    		height: 350px;
+    		width: 250px;
+    		float: left;
+    		margin-top: 25px;
+    		margin-left: 25px;
+    		background-color: red;
+    		border-radius: 10px 10px 10px 10px;
+    		background-color:#d0d0d0;
+    		font-family: "楷体";
+    		font-size: 20px;
+    	}
+    	#n3:hover{
+    		margin-left:25px;
+    		border-radius: 10px 10px 10px 10px;
+    		margin-top: 0;
+
+    	}
+    	#m4{
+    		height: 400px;
+    		width: 300px;
+    		float: right;
+    		margin-top: 50px;
+    		background-color: white;
+    	}
+    	#n4{
+    		height: 350px;
+    		width: 250px;
+    		float: left;
+    		margin-top: 25px;
+    		margin-left: 25px;
+    		background-color: red;
+    		border-radius: 10px 10px 10px 10px;
+    		background-color: #d0d0d0;
+    		font-family: "楷体";
+    		font-size: 20px;
+    	}
+    	#n4:hover{
+    		margin-left:25px;
+    		border-radius: 10px 10px 10px 10px;
+    		margin-top: 0;
+
+
+    	}
+    	#ssheader{
+    		height: 35px;
+    		width: 1200px;
+    		background-color: #595959;
+    		margin-top: 0px;
+    		font-family: "楷体";
+    	}
+    	h3{
+    		font-family: "楷体";
+    		font-size: 18px;
+    		color: white;
+    	}
+    	#sheader{
+    		height: 35px;
+    		width: 1200px;
+    		background-color: #595959;
+    		margin-top: 25px;
+    		font-family: "楷体";
+    	
+
+    	}
+    	h1{
+    			color:white;
+    	}
+    	h1:hover{
+    		color: black;
+    		font-family: "楷体";
+    	}
+    	h2:hover{
+    		color:#337ab7;
+    		text-decoration: underline;
+
+    	}
+
+    	
+		#p1{
+			height: 800px;
+			width: 400px;
+			background-color:white;
+			float: left;
+
+		}
+		#n1.hr{
+			color: red;
+		}
+		#a1{
+			height: 300px;
+			width:400px;
+			background-color: green;
+			margin: 0 auto;
+			margin-top: 90px;
+			background-image: url("images/7.jpg");
+		}
+		#sh1{
+			height: 35px;
+			width: 1200px;
+            background-color: #595959;
+            margin-top: 120px;
+            font-family: "楷体";
+		}
+		#a2{
+			height: 300px;
+			width:400px;
+			background-color: white;
+			margin: 0 auto;
+			margin-top: 60px;
+			margin-left: 40px;
+
+		}
+        #p2{
+        	height: 800px;
+        	width:800px;
+			background-color: white;	
+            float: right;
+			
+
+
+        }
+        #b1{
+        	height: 300px;
+        	width:750px;
+			background-color: white;
+			margin: 0 auto;	
+			margin-top: 50px;
+			margin-right: 0px;
+
+
+        }
+        #sh2{
+			height: 35px;
+			width: 800px;
+            background-color: #595959;
+            margin-top: 160px;
+            font-family: "楷体";
+		}
+        #b2{
+        	height: 300px;
+        	width:750px;			
+			margin: 0 auto;
+			margin-top: 80px;
+		    
+        }
+        #c1{
+        	height: 300px;
+        	width: 187.5px;
+        	overflow: hidden;
+        	float: left;
+        	border:3px solid gray;
+            
+        	background-image: url("images/9.jpg");
+
+        }
+        #c1:hover{
+        	width: 350px;
+
+        }
+        #c2{
+        	height: 300px;
+        	width: 187.5px;
+        	overflow: hidden;
+        	float: left;
+            
+        	background-image: url("images/5.jpg");
+        	position: relative;
+        	border:3px solid gray;
+
+        }
+        #c2:hover{
+        	width: 350px;
+
+        }
+        #c3{
+        	height: 300px;
+        	width: 187.5px;
+        	overflow: hidden;
+        	position: relative;
+        	border:3px solid gray;
+            
+        	background-image: url("images/4.jpg");
+
+        }
+        #c3:hover{
+        	width: 350px;
+
+        }
+        
+        
+        #footer{
+        	background-color: #595959;
+        	height: 40px;
+        	margin-top: 780px;
+        	text-align: center;
+
+
+
+        }
+        #footer li{
+        	margin: 40px;
+            padding: 0px;
+        	display: inline;
+        	color: black;
+        	font-size: 15px;
+        	margin: 0 auto;
+        	letter-spacing: 2px;
+
+        }
+        
+
+	</style>
+</head>
+<body>
+	<div id="container">
+	  <div id="header">
+	  <div id="dhead"><h3>华为，让一切不可能变为可能,改变世界，改变未来！</h3>
+	  <div id="oo">
+	  <input type="radio"value="1"name="inset">设为主页
+	  	 <input type="radio"value="1"name="inset">注册
+	  	 <input type="radio"value="2"name="inset">忘记密码
+	  	 
+	  </div></div>
+	  <div id="mishead">
+	  <form action="action_page.php">
+	  <br><br>
+      姓  名 :
+      <input type="text" name="firstname" value="杨楚峤">
+      <br><br><br>
+       密  码 : 
+      <input type="text" name="lastname" value="网站设计大作业">
+      
+      <input type="submit" value="   OK   " style="background:#ccc">
+      </form>  
+	 
+	 </div>
+     </div>
+	<div id="nav">
+	<div id="s1" align="center">
+		
+	<p><br>
+
+
+	<ul>
+         |<li><a href="华为首页.html">华为首页</a></li>|
+         <li><a href="智能手机.html">智能手机</a></li>|
+         <li><a href="笔记本.html">笔记本</a></li>|
+
+         <li><a href="#">穿戴设备</a></li>|
+         <li><a href="#">智能家居</a></li>|
+         <li><a href="#">更多产品</a></li>|
+      </ul></p>
+    </div>
+	</div>
+
+	<div id="main"> 
+	
+	<div id="s2">
+	</div>
+	<div id="s3">
+	<div id="sheader">
+	<h1> | 华为 | 请让世界了解你</h1>
+
+	</div>
+	<div id="p1">
+	
+
+	<div id="a1">
+
+	</div>
+	<div id="sh1"><h1> | 华为 | 说</h1></div>
+	<div id="a2">
+	<h2>华为说 : 联接让一切皆有可能</h2>
+	<p><br>The connection makes it possible for everything to be possible </p>
+	<h2><br>华为说 : 云可当服务触手可及</h2>
+	<p><br>Cloud: when service is in touch </p>
+	<h2><br>华为说 : 物联世界 感知未来</h2>
+	<p><br>World perception of the future </p>
+	<h2><br>华为说 : 视频：机器眼中的世界</h2>
+	<p><br>Video: the world in the eye of the machine  </p>
+
+
+	</div>
+
+	</div>
+
+	<div id="p2">
+	<div id="b1">
+	<h2>华为是谁?</h2>
+	<p><br>华为是全球领先的信息与通信技术(ICT)解决方案供应商，专注于ICT领域，坚持稳健经营、持续创新、开放合作，在电信运营商、企业、终端和云计算等领域构筑了端到端的解决方案优势，为运营商客户、企业客户和消费者提供有竞争力的ICT解决方案、产品和服务，并致力于使能未来信息社会、构建更美好的全联接世界。目前，华为约有18万名员工，业务遍及全球170多个国家和地区，服务全世界三分之一以上的人口。</p>
+	<h2><br>华为为世界带来了什么?</h2>
+	<p><br>华为和运营商一起，在全球建设了1,500多张网络，帮助世界超过三分之一的人口实现联接。华为和企业客户一起，以开放的云计算和敏捷的企业网络，助力平安城市、金融、交通、能源等领域实现高效运营和敏捷创新。华为智能终端和智能手机，正在帮助人们享受高品质的数字工作、生活和娱乐体验。</p>
+	<h2><br>华为坚持什么?</h2>
+	<p><br>华为十几万人，29年坚持聚焦在主航道，抵制一切诱惑；坚持不走捷径，拒绝机会主义，踏踏实实，长期投入，厚积薄发；坚持以客户为中心，以奋斗者为本，长期艰苦奋斗，自我批判。我们不会辜负时代慷慨赋予我们的历史性机遇，为共建更美好的全联接世界，一往无前。<br></p>
+	
+
+
+	
+	</div>
+	<div id="sh2"></div>
+	<div id="b2">
+	<div id="c1">
+	</div>
+	<div id="c2">
+		
+	</div>
+	<div id="c3">
+		
+	</div>
+	
+	</div>
+	 </div>
+    <div id="s4"> 
+<div id="ssheader">
+	<h1> | 华为 | 我们的移动终端服务</h1>
+</div>
+<div id="m1">
+	<div id="n1" align="center">
+	<p><br></p>
+		<h2>分  发</h2>
+		<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="100%" color=white SIZE=3>
+		<p><br>应用市场<br><br></p>
+		<p>游戏中心<br><br></p>
+        <p>主题中心<br><br></p>
+        <p>云文件夹<br><br></p>
+        <p>预装集成<br><br></p>
+
+	</div>
+</div>
+<div id="m2">
+	<div id="n2" align="center">
+		<p><br></p>
+		<h2>推  广</h2>
+		<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="100%" color=white SIZE=3>
+		<p><br>应用市场首发<br><br></p>
+		<p>应用市场付费<br><br></p>
+        <p>礼包推广<br><br></p>
+        <p>联运服务<br><br></p>
+        <p>更多推广<br><br></p>
+	</div>
+</div>
+<div id="m3">
+	<div id="n3" align="center">
+		<p><br></p>
+		<h2>云服务</h2>
+		<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="100%" color=white SIZE=3>
+		<p><br>华为账号<br><br></p>
+		<p>推送服务<br><br></p>
+        <p>社交服务<br><br></p>
+        <p>应用内支付<br><br></p>
+        <p>更多开发<br><br></p>
+	</div>
+</div>
+<div id="m4">
+	<div id="n4" align="center">
+		<p><br></p>
+		<h2>终端能力</h2>
+		<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="100%" color=white SIZE=3>
+		<p><br>高能通讯助手<br><br></p>
+		<p>EMUL增强特性<br><br></p>
+        <p>安全服务<br><br></p>
+        <p>用户沟通<br><br></p>
+        <p>压力测试<br><br></p>
+
+	</div>
+</div>
+
+    </div>
+	
+	</div>
+
+    <div id="footer" align="center">
+    <p><br>
+
+
+	<ul>
+         |<li>你想认识我吗?</li>|
+         <li>联系方式</li>|
+         <li>姓名:杨楚峤</li>|
+         <li>学号:171001220</li>|
+         <li>班级:信息17-2</li>|
+         <li>纯正原创 , 盗版必究</li>|
+      </ul></p>
+	</div>
+	
+</body>
+</html>
